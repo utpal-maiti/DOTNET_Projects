@@ -1,12 +1,5 @@
 The .NET Framework, developed by Microsoft, supports various types of applications, enabling developers to create diverse and powerful solutions. Here’s an overview of the different types of .NET Framework applications:
 
-# DOTNET_CORE
-
-## ASP.NET Core API
-
-- [API Concepts](https://github.com/utpal-maiti/DOTNET_CORE/tree/main/API/APIConcepts)
-- [FIQ.Interview.Api](https://github.com/utpal-maiti/FIQ.Interview.Api.git)
-
 ### 1. **Web Applications**
 
 #### **ASP.NET Web Forms**
