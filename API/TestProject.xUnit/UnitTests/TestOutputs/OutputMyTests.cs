@@ -23,5 +23,14 @@ namespace TestProject.xUnit.UnitTests.TestOutputs
             _output.WriteLine("This is a test output message.");
             Assert.True(true);
         }
+        [Fact]
+        public void Test2()
+        {
+            _output.WriteLine("Running Test2");
+            int a = 5;
+            int b = 3;
+            _output.WriteLine($"Values: a = {a}, b = {b}");
+            Assert.Equal(8, a + b);
+        }
     }
 }

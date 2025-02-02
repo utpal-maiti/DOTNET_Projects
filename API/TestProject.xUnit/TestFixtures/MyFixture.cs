@@ -1,17 +1,20 @@
-﻿namespace TestProject.xUnit.TestFixtures
+﻿using Xunit.Abstractions;
+
+namespace TestProject.xUnit.TestFixtures
 {
     public class MyFixture : IDisposable
     {
-        public MyFixture()
+        private readonly ITestOutputHelper _output;
+
+        public MyFixture(ITestOutputHelper output)
         {
-            // Collection setup code here
-            Console.WriteLine("Collection setup");
+            _output = output;
+            _output.WriteLine("Class setup");
         }
 
         public void Dispose()
         {
-            // Collection cleanup code here
-            Console.WriteLine("Collection teardown");
+            _output.WriteLine("Class teardown");
         }
     }
 }

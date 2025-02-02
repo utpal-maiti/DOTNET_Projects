@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using TestProject.xUnit.TestAttributes;
+
 namespace TestProject.xUnit.UnitTests
 {
     public class MyTests : IClassFixture<MyTestFixture>
@@ -37,6 +39,33 @@ namespace TestProject.xUnit.UnitTests
         [InlineData(3, 5, 8)]
         [InlineData(2, 4, 6)]
         public void TestWithParameters(int a, int b, int expected)
+        {
+            Assert.Equal(expected, a + b);
+        }
+
+        [Fact]
+        [Priority(1)]
+        public void CriticalTest()
+        {
+            Assert.True(true);
+        }
+
+        [Fact]
+        [Priority(2)]
+        public void NormalTest()
+        {
+            Assert.True(true);
+        }
+
+        [WindowsOnlyFact]
+        public void TestOnlyOnWindows()
+        {
+            Assert.True(true);
+        }
+
+        [Theory]
+        [CustomData]
+        public void TestWithCustomData(int a, int b, int expected)
         {
             Assert.Equal(expected, a + b);
         }
