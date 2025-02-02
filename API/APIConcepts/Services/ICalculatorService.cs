@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace APIConcepts.Services
+namespace TestProject.xUnit.DataSource
 {
     public interface ICalculatorService
     {

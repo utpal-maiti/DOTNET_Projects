@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 using TestProject.xUnit.DataSource;
 
-namespace TestProject.xUnit.UnitTests
+namespace TestProject.xUnit.UnitTests.ServicesTests
 {
     public class DataServiceTests
     {

@@ -1,4 +1,4 @@
-﻿namespace APIConcepts.Services
+﻿namespace TestProject.xUnit.DataSource
 {
     public class CalculatorService : ICalculatorService
     {

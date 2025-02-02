@@ -9,7 +9,7 @@ namespace APIConcepts.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-        private IGenericRepository<Employee> repo = null;
+        private readonly IGenericRepository<Employee> repo;
 
         public EmployeeController(IGenericRepository<Employee> repo)
         {

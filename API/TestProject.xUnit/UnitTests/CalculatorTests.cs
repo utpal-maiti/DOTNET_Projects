@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 using TestProject.xUnit.DataSource;
 using TestProject.xUnit;
+using Xunit;
+using FluentAssertions;
 
 namespace TestProject.xUnit.UnitTests
 {
