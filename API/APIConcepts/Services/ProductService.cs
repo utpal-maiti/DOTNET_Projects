@@ -18,7 +18,7 @@
         {
             if (id < 0 || id >= _products.Count)
             {
-                return null;
+                return string.Empty;
             }
             return _products[id];
         }

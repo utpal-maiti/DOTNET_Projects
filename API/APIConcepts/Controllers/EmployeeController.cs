@@ -1,4 +1,5 @@
-﻿using APIConcepts.Services;
+﻿using APIConcepts.Models;
+using APIConcepts.Services;
 
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

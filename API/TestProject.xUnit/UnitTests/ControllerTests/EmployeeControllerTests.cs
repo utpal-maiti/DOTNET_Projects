@@ -1,4 +1,5 @@
 ﻿using APIConcepts.Controllers;
+using APIConcepts.Models;
 using APIConcepts.Services;
 
 using Microsoft.AspNetCore.Mvc;
@@ -84,7 +85,7 @@ namespace TestProject.xUnit.UnitTests.ControllerTests
         public void checkIfUserCanBeVoter_true_ageGreaterThan18(int age)
         {
             //arrange
-            var controller = new EmployeeController(null);
+            var controller = new EmployeeController(service.Object);
 
             //act
             var actual = controller.checkIfUserCanBeVoter(age);
@@ -100,7 +101,7 @@ namespace TestProject.xUnit.UnitTests.ControllerTests
         public void checkIfUserCanBeVoter_true_ageLessThan18(int age)
         {
             //arrange
-            var controller = new EmployeeController(null);
+            var controller = new EmployeeController(service.Object);
 
             //act
             var actual = controller.checkIfUserCanBeVoter(age);

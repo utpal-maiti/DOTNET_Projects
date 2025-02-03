@@ -10,7 +10,7 @@ namespace APIConcepts.Services
         /// as the class here is Generic so we can't access the model directly
         /// so creating a DbSet depending on the T generic class
         /// </summary>
-        private DbSet<T> table = null;
+        private readonly DbSet<T> table;
 
         public GenericRepository(ApplicationContext context)
         {
@@ -29,7 +29,7 @@ namespace APIConcepts.Services
 
         public T GetById(object id)
         {
-            return table.Find(id);
+            return table.Find(id)!;
         }
 
         public void Insert(T obj)
