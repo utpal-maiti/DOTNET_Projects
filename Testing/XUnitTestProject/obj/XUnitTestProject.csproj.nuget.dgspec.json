@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\InterviewPreparation\\SampleProjects\\DOTNET_Projects\\Testing\\XUnitTestProject\\XUnitTestProject.csproj": {}
+    "D:\\Projects\\DOTNET_Projects\\Testing\\XUnitTestProject\\XUnitTestProject.csproj": {}
   },
   "projects": {
-    "D:\\InterviewPreparation\\SampleProjects\\DOTNET_Projects\\Testing\\XUnitTestProject\\XUnitTestProject.csproj": {
+    "D:\\Projects\\DOTNET_Projects\\Testing\\XUnitTestProject\\XUnitTestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\InterviewPreparation\\SampleProjects\\DOTNET_Projects\\Testing\\XUnitTestProject\\XUnitTestProject.csproj",
+        "projectUniqueName": "D:\\Projects\\DOTNET_Projects\\Testing\\XUnitTestProject\\XUnitTestProject.csproj",
         "projectName": "XUnitTestProject",
-        "projectPath": "D:\\InterviewPreparation\\SampleProjects\\DOTNET_Projects\\Testing\\XUnitTestProject\\XUnitTestProject.csproj",
+        "projectPath": "D:\\Projects\\DOTNET_Projects\\Testing\\XUnitTestProject\\XUnitTestProject.csproj",
         "packagesPath": "C:\\Users\\UTPAL\\.nuget\\packages\\",
-        "outputPath": "D:\\InterviewPreparation\\SampleProjects\\DOTNET_Projects\\Testing\\XUnitTestProject\\obj\\",
+        "outputPath": "D:\\Projects\\DOTNET_Projects\\Testing\\XUnitTestProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
